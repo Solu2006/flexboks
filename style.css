@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 30px;
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.card{
+    width: 350px;
+    height: 200px;
+    border-radius: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.purple-card{
+    background-color: blueviolet;
+}
+.dark-card{
+    background-color: black;
+}
+.green-card{
+    background-color: green;
+}
+.blue-card{
+    background-color: blue;
+}
+.chip{
+    width: 45px;
+    height: 35px;
+    background-color: yellow;
+    border-radius: 5px;
+    border: 1px solid peru;
+}
+.card-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.card-holder{
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+.valid-text{
+    display: block;
+    font-size: 10px;
+    color: ivory;
+}
+.visa-logo{
+    font-size: 28px;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+}
